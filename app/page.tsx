@@ -4,7 +4,9 @@ export default function Home() {
   return (
     <div>
       <p className="text-3xl font-medium text-sky-700">Hello World</p>
-      <Button variant="destructive">Click me</Button>
+      <Button variant="destructive" size="lg">
+        Click me
+      </Button>
     </div>
   );
 }
